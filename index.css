@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+}
+
+#container>#innerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    border: 1px solid black;
+}
+
+#container>#innerContainer>.heading{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+#container>#innerContainer>.filterBar{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#container>#innerContainer>.filterBar>span>select{
+    width: 300px;
+    height: 30px;
+}
+
+#container>#innerContainer>.tableDiv{
+    width: 100%;
+    padding: 20px;
+}
+
+#container>#innerContainer>.tableDiv>table{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+#container>#innerContainer>.tableDiv>table>thead>tr>th{
+    border: 1px solid blue;
+}
+
+#container>#innerContainer>.tableDiv>table>tbody>tr>td{
+    /* border: 1px solid yellow; */
+    text-align: center;
+}
+
+#container>#innerContainer>div>button{
+    /* display: flex; */
+    width: 100px;
+}

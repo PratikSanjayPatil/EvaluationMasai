@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div id="innerContainer">
+            <div class="heading">
+                <h1>Employee Management System</h1>
+            </div>
+            <div class="filterBar">
+                <span>
+                    Filter by Department 
+                    <select name="" id="Department">
+                        <option value="">Select Department</option>
+                        <option value="hr">hr</option>
+                        <option value="finance">finance</option>
+                        <option value="marketing">marketing</option>
+                        <option value="engineering">engineering</option>
+                        <option value="operations">operations</option>
+                    </select>
+                </span>
+
+                <span>
+                    Filter by Gender
+                    <select name="" id="Gender">
+                        <option value="">Select Gender</option>
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                    </select>
+                </span>
+
+                <span>
+                    Sort by Salary
+                    <select name="" id="Salary">
+                        <option value="">Select Order</option>
+                        <option value="Low to High">Low to High</option>
+                        <option value="High to Low">High to Low</option>
+                    </select>
+                </span>
+
+            </div>
+
+            <div class="tableDiv">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>S.no</th>
+                            <th>Name</th>
+                            <th>Gender</th>
+                            <th>Department</th>
+                            <th>Salary</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+
+            </div>
+            <div class="btn">
+                <button id="prv">Previous</button>
+                <button id="nxt">Next</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
